@@ -19,11 +19,9 @@ A serverless API for creating VPCs with subnets and retrieving their information
 
 ## Deployment
 
-1. Clone this repository
-2. Run deployment script:
-   ```bash
-   chmod +x scripts/deploy.sh
-   ./scripts/deploy.sh
+1. Create two python Lambda's with name sample and get_sample.
+2. Open cloudformation teamplate and deploy template.yml (to check correct arn in template.yml)
+3. Execute following command.
 
 
 aws cognito-idp sign-up --client-id <UserPoolClientId> --username test@example.com --password Passw0rd!
